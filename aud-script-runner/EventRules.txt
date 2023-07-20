@@ -1,0 +1,7 @@
+    codepipeline-aiparc-faceli-445038-rule ai-parcel-web
+    codepipeline-aiparc-faceli-735062-rule ai-parcel-reports
+    codepipeline-fopfre-faceli-103309-rule fop-freight-parceltms
+    codepipeline-traceu-faceli-126681-rule traceui
+    codepipeline-traceu-faceli-779129-rule traceui2
+    codepipeline-traceu-faceli-485726-rule traceui3
+    codepipeline-traceu-uatrel-174861-rule traceui4

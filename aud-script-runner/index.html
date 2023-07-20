@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles2.css">
+    <title>Script Runner</title>
+</head>
+
+<body>
+    <script src="server.js"></script>
+    <div class="table-containers">
+        <div class="table">
+            <h1 class="animated-gradient">Production Script Runner</h1>
+            <table>
+                <tr>
+                    <th class="animated-gradient" style="color:white">Script Name</th>
+                    <th class="animated-gradient" style="color:white">Category</th>
+                    <th class="animated-gradient" style="color:white">Action</th>
+                </tr>
+                <tr>
+                    <td >TASK SERVER BUILDS</td>
+                    <td>REGULAR</td>
+                    <td>
+                        <form method="post" action="/taskserverbuilds">
+                            <button onclick="runScript()" class="btn-grad" type="submit">
+                            build
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>COPY RDS SNAPSHOTS</td>
+                    <td>DAILY</td>
+                    <td>
+                        <form method="post" action="/copy-rds-ss">
+                            <button onclick="runScript()" class="btn-grad" type="submit">COPY</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>S3 FILES DOWNLOAD</td>
+                    <td>-</td>
+                    <td>
+                        <form method="post" action="/S3-FILES-DOWNLOAD">
+                            <button class="btn-grad" type="submit">DOWNLOAD</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>REBOOT RDS</td>
+                    <td>SUNDAY</td>
+                    <td>
+                        <form method="post" action="/REBOOT-RDS">
+                            <button onclick="runScript()" class="btn-grad" type="submit">REBOOT</button>
+                        </form>
+                    </td>
+                </tr>
+                <!-- Add more rows for additional scripts -->
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="table">
+            <h1 class="animated-gradient">CODECOMMIT Script Runner</h1>
+            <table>
+                <tr>
+                    <th class="animated-gradient" style="color:white">SCRIPT NAME</th>
+                    <th class="animated-gradient" style="color:white"> CATEGORY</th>
+                    <th class="animated-gradient" style="color:white">CREATE</th>
+                    <th class="animated-gradient" style="color:white">CLEAR</th>
+
+                </tr>
+                <tr>
+                    <td style="color:White">STAGING BRANCHES</td>
+                    <td style="color:white">WEDNESDAY</td>
+                    <td>
+                        <form method="post" action="/CREATE-STAGING-BRANCHES">
+                            <button class="btn-grad" type="submit">CREATE</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post" action="/CLEAR-STAGING-BRANCHES">
+                            <button class="btn-grad" type="submit">CLEAR</button>
+                        </form>
+                    </td>
+                    
+                </tr>
+                
+                <tr>
+                    <td style="color:white">UAT RELEASE BRANCHES</td>
+                    <td style="color:white">THURSDAY</td>
+                    <td>
+                        <form method="post" action="/CREATE-RELEASE-BRANCHES">
+                            <button class="btn-grad" type="submit" >CREATE</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post" action="/CLEAR-RELEASE-BRANCHES">
+                            <button class="btn-grad" type="submit">CLEAR</button>
+                        </form>
+                    </td>
+                </tr>
+                
+                <!-- Add more rows for additional scripts -->
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

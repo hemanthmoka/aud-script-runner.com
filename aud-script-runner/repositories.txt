@@ -1,0 +1,9 @@
+    ai-parcel-reports
+    ai-parcel-web
+    ai-parcel-tasks
+    fop-freight-parceltms
+    traceui
+    traceui2
+    traceui3
+    traceui4
+    traceui6

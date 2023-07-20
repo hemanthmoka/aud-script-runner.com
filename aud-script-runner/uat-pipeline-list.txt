@@ -1,0 +1,16 @@
+    uat-ai-parcel-web-faclift
+    uat-ai-reports-web-faclift
+    uat-fop-freight-parceltms-faclift
+    uat-Audintel-traceui-facelift
+    uat-audintel-traceui2-facelift-pipeline
+    uat-audintel-traceui3-facelift
+    uat-Audintel-traceui4-facelift
+    uat-audintel-traceui6-react18-pipeline1
+    uat-chrobinson-traceui-facelift
+    uat-chrobinson-traceui2-facelift-pipeline
+    uat-chrobinson-traceui3-facelift
+    uat-fop-traceui-facelift
+    uat-fop-traceui2-facelift-pipeline
+    uat-fop-traceui3-facelift
+    uat-FOP-traceui4-facelift
+    uat-fop-traceui6-react18-pipeline
